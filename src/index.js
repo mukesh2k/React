@@ -1,8 +1,6 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-function Great()
-{
-  return <h4>first component</h4>;
+import React from "react";
+import ReactDom from "react-dom";
+function Great() {
+  return <div>mukessssh</div>;
 }
-
-ReactDom.render(<Great/>,document.getElementById('root'));
+ReactDom.render(<Great />, document.getElementById("root"));
