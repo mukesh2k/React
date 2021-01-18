@@ -1,5 +1,5 @@
 * {
-  margin: 2;
+  margin: 5;
   padding: 0;
   width: fit-content;
   box-sizing: border-box;
@@ -13,23 +13,33 @@ body {
 .bookde {
   width: 90vw;
   max-width: 1170px;
-  margin: 2rem auto;
   display: grid;
-  gap: 5rem;
+  gap: 3rem;
 }
-@media screen and (min-width: 710px) {
+@media screen and (min-width: 300px) {
   .bookde {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 5fr));
+    align-self: start;
+    align-content: center;
   }
 }
-@media screen and (min-width: 800px) {
-  .bookde {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+
 .books {
-  border: brown;
-  border-radius: 1rem;
-  padding: 1rem;
-  background-color: rgba(145, 255, 0, 0.603);
+  border: black;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgba(0, 0, 255, 0.199);
+  width: 360px;
+  margin: 10px;
+}
+.books img {
+  width: 330px;
+}
+.section h2 {
+  color: aqua;
+  margin: 0;
+}
+.section p {
+  margin: 0;
+  letter-spacing: 5px;
 }
