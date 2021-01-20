@@ -14,8 +14,6 @@ body {
   display: grid;
   gap: 3rem;
 }
-.bookde button {
-}
 @media screen and (min-width: 300px) {
   .bookde {
     grid-template-columns: repeat(auto-fill, minmax(350px, 5fr));
