@@ -14,6 +14,7 @@ body {
   display: grid;
   gap: 3rem;
 }
+
 @media screen and (min-width: 300px) {
   .bookde {
     grid-template-columns: repeat(auto-fill, minmax(350px, 5fr));
@@ -26,7 +27,7 @@ body {
   border: black;
   border-radius: 20px;
   padding: 15px;
-  background-color: green;
+  background-color: rgb(26, 128, 0);
 
   width: 360px;
   margin: 10px;
@@ -41,4 +42,8 @@ body {
 .section p {
   margin: 0;
   letter-spacing: 5px;
+}
+.books:hover {
+  background-color: rgba(0, 23, 128, 0.411);
+  transition-property: all;
 }
